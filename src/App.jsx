@@ -47,8 +47,8 @@ function App() {
       <header className="app-header">
         <img src="/logo.png" style={{ width: '40px',marginRight:'10px' }} alt="Logo" />
         <span style={{ textAlign: 'left', display:'inline-block' }}>
-          <h3 style={{ marginBottom: '0px' }}>Category Digest</h3>
-          <h4 style={{ marginTop: '0px', fontSize: '12px', letterSpacing:'4px' }}>Transcript Editor</h4>
+          <h3 style={{ marginBottom: '0px' }}>Transcript Dashboard</h3>
+          <h4 style={{ marginTop: '0px', fontSize: '12px', letterSpacing:'1.4px' }}>Podcast Management System</h4>
         </span>
 
       </header>

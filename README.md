@@ -1,4 +1,4 @@
-# 🎙️ Podcast Transcript Dashboard
+# 📝 Transcript Dashboard
 
 A React-based web application for managing and editing podcast transcripts with SQLite database integration. View, edit, and persist transcript changes with a modern, responsive interface.
 
