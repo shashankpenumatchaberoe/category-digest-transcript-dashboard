@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Test</title>
+    <style>
+        body { 
+            background: green; 
+            color: white; 
+            font-size: 30px; 
+            padding: 50px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>SIMPLE HTML TEST</h1>
+    <p>This should show green background with white text</p>
+    <p>Time: <span id="time"></span></p>
+    <script>
+        document.getElementById('time').textContent = new Date().toLocaleTimeString();
+        console.log('Simple HTML test is working');
+    </script>
+</body>
+</html>
