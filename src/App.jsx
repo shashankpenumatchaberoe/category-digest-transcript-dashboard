@@ -21,7 +21,7 @@ function App() {
     try {
       console.log('Loading podcast database from flask_app.db...');
 
-      const { db, allTables, defaultTable } = await loadStaticDatabase('/flask_app.db');
+      const { db, allTables, defaultTable } = await loadStaticDatabase('./flask_app.db');
       setDatabase(db);
       setDatabaseName(`Podcast Database`);
       setUsingMockDatabase(false);
